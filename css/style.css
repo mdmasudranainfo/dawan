@@ -1,0 +1,199 @@
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+p {
+  font-size: 18px;
+}
+svg {
+  width: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  font-weight: 500;
+}
+
+.header {
+  height: 800px;
+
+  background-image: url(/images/banner/banner3.png);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative !important;
+}
+
+.headerInfo {
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 250px;
+  right: 100px;
+  width: 300px;
+  height: 100%;
+  text-align: right;
+}
+
+/* middle body css start*/
+.years {
+  display: flex;
+  margin-top: 100px;
+}
+
+.middleImg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.middleImg img {
+  width: 400px;
+}
+.middleInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middleInfo h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+.listItem {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+}
+/* //about me // */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about{
+  
+  margin-top: 50px;
+  background-color:rgba(7, 7, 242, 0.655);
+  padding: 50px 150px;
+ text-align: center;
+}
+.section-title{ 
+ color: white;
+ align-items: center;
+ margin-bottom: 30px;
+ font-weight: 700px;
+ font-size: 35px;
+}
+
+.section-discription{
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.about-info-container{
+ display: flex;
+ gap: 95px;
+ 
+
+}
+ 
+.about .info-title{
+  font-size: 20px;
+  color: azure;
+}
+.info-description{
+font-weight: 700px;
+font-size: 20px;
+color: antiquewhite;
+}
+
+/* my plan start */
+
+.myPlan {
+  margin-top: 100px;
+}
+.myPlan h1 {
+  text-align: center;
+  font-size: 40px;
+}
+/* my plan end */
+
+.planWraper {
+  display: flex;
+  justify-content: space-around;
+}
+.planBox {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.planBox img {
+  width: 100px;
+}
+
+.bannar {
+  margin-top: 100px;
+  background-image: url(/images/watch.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.bannar img {
+  height: 100%;
+
+}
+.bannarInfo {
+  color: white;
+  position: absolute;
+  left: 54px;
+  top: 25px;
+}
+
+
+
+/* footer section  */
+.contact{
+   display: flex;
+   gap: 500px;
+background-color: rgb(10, 10, 10);
+padding: 130px 300px;
+color: white;
+
+}
+
+.icons{
+  display: flex;
+  gap: 20px;
+}
+
+
+.email-info{
+     width: 150px;
+     height: 30px;
+   border-color: white;
+   background-color: black;
+   color: white;
+   margin-bottom: 24px;
+}
+.btn-fo{
+background-color: blue;
+color: White;
+width: 95px;
+height: 40px;
+
+}
